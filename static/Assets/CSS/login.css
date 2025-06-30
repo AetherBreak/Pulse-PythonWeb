@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+/*Fonte 2*/
+.social-btn .text-wrapper,
+.continue-btn,
+.register-text,
+.register-text a {
+  font-family: "Arimo", sans-serif;
+  font-weight: 700;
+}
+
+/*Fundo*/
+.background {
+  background-image: url("../Img/BG.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+}
+
+.header {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  color: white;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/*Icone Esquerda*/
+.icon {
+  width: 40px;
+  height: auto;
+}
+
+.login-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Caixa*/
+.login-box {
+  background-color: #080724;
+  padding: 40px;
+  padding-bottom: 90px;
+  border-radius: 25px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.login-box input,
+.login-box button {
+  max-width: 280px;
+  width: 100%;
+}
+
+.login-box label {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+  margin-top: 30px;
+  width: 100%;
+  max-width: 280px;
+  text-align: left;
+}
+
+/*Titulo*/
+h2 {
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.social-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ffffff;
+  background: transparent;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+  text-align: left;
+}
+
+.social-btn .text-wrapper {
+  flex: 1;
+  text-align: center;
+  line-height: 1.2;
+}
+
+/*Icones de login*/
+.social-btn img {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  flex-shrink: 0;
+}
+
+/*Icone invisivel telefone*/
+.social-btn img.placeholder-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.social-btn:hover {
+  background-color: #1a1a3d;
+}
+
+.login-box form input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+  background-color: #080724;
+  color: white;
+  border: 1px solid #ffffff;
+}
+
+.continue-btn {
+  background-color: #0017ff;
+  color: #f0f0f0;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  border-radius: 46px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.register-text {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.register-text a {
+  color: #0017ff;
+  text-decoration: none;
+}
+
+/*Logo no meio*/
+.logo-icon {
+  width: 34px;
+  margin-bottom: 20px;
+}
+
+.text-wrapper {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.divider {
+  width: 280px;
+  height: 1px;
+  background-color: white;
+  border: none;
+  margin: 45px 0;
+}
+
+login-box form {
+  /* Apply flexbox to the form to control its children's layout */
+  display: flex;
+  flex-direction: column; /* Stacks children vertically */
+  gap: 15px; /* Adds space between elements */
+  width: 100%; /* Ensures the form takes up available width */
+}
+
+.login-box form label {
+  /* Ensure labels are block-level if you want them on their own line */
+  display: block;
+  margin-bottom: 5px; /* Add some space below the label */
+  font-weight: bold; /* Make labels stand out */
+}
+
+.login-box form input[type="text"],
+.login-box form input[type="email"],
+.login-box form input[type="password"] {
+  width: 100%; /* Make inputs fill their container */
+  padding: 10px;
+  margin-bottom: 10px; /* Add space below inputs */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensures padding doesn't increase total width */
+}
+
+.login-box .continue-btn a {
+  text-decoration: none; /* Remove underline from link */
+  color: inherit; /* Inherit color from parent button */
+  display: block; /* Make the link fill the button area */
+}

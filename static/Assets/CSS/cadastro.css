@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+h2 {
+  font-family: akzidenz;
+}
+.background {
+  background-image: url("../Img/BG.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+}
+
+.header {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  color: white;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.icon {
+  width: 40px;
+  height: auto;
+}
+
+.login-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background-color: #080724;
+  padding: 40px;
+  padding-bottom: 90px;
+  border-radius: 25px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.login-box input,
+.login-box button {
+  max-width: 280px;
+  width: 100%;
+}
+
+.login-box label {
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+  margin-top: 30px;
+  width: 100%;
+  max-width: 280px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+  background-color: #080724;
+  color: white;
+  border: 1px solid #ffffff;
+}
+
+.continue-btn {
+  background-color: #0017ff;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  border-radius: 46px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: "Arimo", sans-serif;
+  text-decoration: none;
+}
+
+.logo-icon {
+  width: 34px;
+  margin-bottom: 20px;
+}
+
+.register-text {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.register-text a {
+  color: #0017ff;
+  text-decoration: none;
+}
+
+/*Logo no meio*/
+.logo-icon {
+  width: 34px;
+  margin-bottom: 20px;
+}
+
+.text-wrapper {
+  text-decoration: none;
+  color: #ffffff;
+}
