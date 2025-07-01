@@ -52,7 +52,8 @@
   ✉️ [matheus.fellipp.pps@gmail.com](mailto:matheus.fellipp.pps@gmail.com)
 
 * **Guilherme Pinheiro**
-  ✉️ \[...]
+   ✉️ [guilhermepinex@gmail.com]
+      [Instagram - @pinheiroogtr]
 
 * **Kauã**
   ✉️ \[...]
